@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+#calculator {
+    width: 600px;
+    height: auto;
+    margin: 150px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#calculator button ,#calculator input[type="text"] {
+    width: 25%;
+    padding: 15px 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    box-shadow: 0 0 9px 0 #999;
+    border: none;
+}
+#calculator input[type="text"] {
+    width: 100%;
+}
